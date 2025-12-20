@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><title>About | Khissyo Unisex Saloon</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="styles.css"></head><body>
+
+<div id="page-loader">
+  <div class="loader-overlay"></div>
+  <div class="loader-glow"></div>
+</div>
+<header class="header">
+<nav class="site-nav">
+  <div class="nav-inner">
+    <div class="brand slide-left">
+      <div class="logo">&#x1F444;</div>
+      <div class="brand-name">Khissyo</div>
+    </div>
+
+    <!-- HAMBURGER -->
+    <button id="nav-toggle" class="nav-toggle slide-right" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <!-- LINKS -->
+    <ul class="nav-links" id="nav-links" role="menu">
+      <li><a href="index.html" class="fade-in">Home</a></li>
+      <li><a href="about.html" class="fade-in">About</a></li>
+      <li><a href="services.html" class="fade-in">Services</a></li>
+      <li><a href="gallery.html" class="fade-in">Gallery</a></li>
+      <li><a href="booking.html" class="fade-in">Booking</a></li>
+      <li><a href="contact.html" class="fade-in">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div class="split">
+      <div>
+        <h2 class="slide-up">About Khissyo Unisex Saloon</h2>
+        <p class="slide-right" style="color:var(--muted);margin-top:12px">We bring precision, style, and comfort to every cut. Our expert stylists and barbers redefine grooming for both men and women.</p>
+        <p class="slide-left" style="color:var(--muted);margin-top:14px">Our salon blends modern techniques with an elevated customer experience. Every service includes a consultation to tailor the style to you.</p>
+      </div>
+      <img class="slide-up" src="assets/team.jpg" alt="our team">
+    </div>
+  </section>
+
+  <footer class="footer slide-right"><div class="gold-line"></div><div style="margin-top:12px">© <span id="year2"></span> Khissyo Unisex Saloon. Designed by Disrup.</div></footer>
+</main>
+
+<script>document.getElementById('year2').textContent = new Date().getFullYear()</script>
+<script src="app.js"></script>
+</body></html>

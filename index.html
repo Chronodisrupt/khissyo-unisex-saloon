@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Khissyo Unisex Saloon | Look Sharp. Feel Confident.</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- PAGE LOADER -->
+<div id="page-loader">
+  <div class="loader-overlay"></div>
+  <div class="loader-glow"></div>
+</div>
+
+<header class="header">
+<nav class="site-nav">
+  <div class="nav-inner">
+    <div class="brand slide-left">
+      <div class="logo">&#x1F444;</div>
+      <div class="brand-name">Khissyo</div>
+    </div>
+
+    <!-- HAMBURGER -->
+    <button id="nav-toggle" class="nav-toggle slide-right" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+
+    <!-- LINKS -->
+    <ul class="nav-links" id="nav-links" role="menu">
+      <li><a href="index.html" class="fade-in">Home</a></li>
+      <li><a href="about.html" class="fade-in">About</a></li>
+      <li><a href="services.html" class="fade-in">Services</a></li>
+      <li><a href="gallery.html" class="fade-in">Gallery</a></li>
+      <li><a href="booking.html" class="fade-in">Booking</a></li>
+      <li><a href="contact.html" class="fade-in">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+</header>
+
+<main class="container">
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <video autoplay muted loop playsinline src="assets/background.mp4"></video>
+
+    <div class="hero-inner">
+      <div class="kicker fade-in">Unisex • Precision • Style</div>
+
+      <h1 class="slide-up">
+        Look Sharp. <span class="gold">Feel Confident.</span>
+      </h1>
+
+      <p class="fade-in">
+        Premium unisex grooming for the modern generation crafted with precision and a futuristic touch.
+      </p>
+
+      <div class="cta slide-up">
+        <button class="btn" onclick="location.href='booking.html'">Book Appointment</button>
+        <button class="btn secondary" onclick="location.href='gallery.html'">Our Craft</button>
+      </div>
+
+      <div class="gold-underline zoom-in"></div>
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+  <section class="section about">
+    <div class="split">
+      <img src="assets/interior.jpg" alt="Salon interior" class="slide-left">
+
+      <div class="slide-right">
+        <h2>About Khissyo Unisex Saloon</h2>
+        <p style="color:var(--muted);margin-top:12px">
+          We bring precision, style, and comfort to every cut. Our expert stylists redefine grooming for both men and women blending modern aesthetics with refined technique.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- SERVICES -->
+  <section class="section services">
+    <h2 class="fade-in" style="margin-bottom:18px">Featured Services</h2>
+
+    <div class="services-grid">
+      <div class="service-card zoom-in">
+        <div class="service-title">Haircut & Styling</div>
+        <div class="service-desc" style="color:var(--muted)">Classic & modern cuts tailored to your face shape.</div>
+        <div class="service-price"></div>
+      </div>
+
+      <div class="service-card zoom-in">
+        <div class="service-title">Beard Grooming</div>
+        <div class="service-desc" style="color:var(--muted)">Precision trimming, shaping & hot towel finishing.</div>
+        <div class="service-price"></div>
+      </div>
+
+      <div class="service-card zoom-in">
+        <div class="service-title">Hair Coloring</div>
+        <div class="service-desc" style="color:var(--muted)">Color, highlights & toning with professional care.</div>
+        <div class="service-price"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- GALLERY -->
+  <section class="section gallery">
+    <h2 class="fade-in" style="margin-bottom:18px">Our Craft in Motion</h2>
+
+    <div class="gallery-grid">
+      <img src="assets/look1.jpg" class="zoom-in">
+      <img src="assets/look2.jpg" class="zoom-in">
+      <img src="assets/look3.png" class="zoom-in">
+      <img src="assets/look4.jpg" class="zoom-in">
+      <img src="assets/look5.jpg" class="zoom-in">
+      <img src="assets/look6.jpg" class="zoom-in">
+    </div>
+  </section>
+
+
+  <!-- CONTACT -->
+  <section class="section contact">
+    <div class="contact-grid slide-up" style="max-width:900px">
+      <div class="card">
+        <h3>Visit Us</h3>
+        <p style="color:var(--muted)">📍 23 Main Street, Ilesha</p>
+        <p style="color:var(--muted)">📞 
+          <a href="tel:+2348001234567" style="color:var(--text)">+234 800 123 4567</a>
+        </p>
+
+        <div style="margin-top:14px">
+          <a href="https://wa.me/2348139132803" class="btn secondary" style="text-decoration: none;">
+            Chat on WhatsApp
+          </a>
+        </div>
+      </div>
+
+      <div class="card slide-up">
+        <h3>Follow Us</h3>
+        <p style="color:var(--muted)">@Khissyo Unisex Saloon</p>
+        <p style="color:var(--muted);margin-top:12px">Opening Hours: Mon–Sat • 9AM–8PM</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer class="footer slide-up">
+    <div class="gold-line"></div>
+    <div style="margin-top:12px">
+      © <span id="year"></span> Khissyo Unisex Saloon. Designed by Disrup.
+    </div>
+  </footer>
+
+</main>
+
+
+<!-- LIGHTBOX -->
+<div id="lightbox" class="lightbox"><img src="" alt="expanded"></div>
+
+<!-- SUCCESS BOX -->
+<div id="success-box" class="success">
+  <h3>Thanks <span class="name">Guest</span> 🎉</h3>
+  <p>We received your booking for <strong class="service">Service</strong>. We’ll reach out soon to confirm.</p>
+</div>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear()
+</script>
+
+<script src="app.js"></script>
+</body>
+</html>
